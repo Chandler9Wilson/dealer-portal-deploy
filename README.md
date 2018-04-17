@@ -53,7 +53,7 @@ Deploy instructions for the [dealer portal project](https://github.com/Chandler9
   mod_wsgi-express setup-server wsgi_server.py --port=80 --user www-data --group www-data --server-root=/home/chandler/mod_wsgi-express-80
 ```
 * Make sure the default apache is not running by running `$ sudo service apache2 stop`
-* Start with `$ /etc/mod_wsgi-express-80/apachectl start`
+* Start with `$ /home/chandler/mod_wsgi-express-80/apachectl start`
 
 ## Accounts
 
